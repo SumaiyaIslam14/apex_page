@@ -1,0 +1,416 @@
+body{
+    margin: 0;
+}
+.topmenu{
+    margin: 0;
+    padding-right: 9%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: end;
+    background-color: white;
+}
+.menutext{
+    border-right: 0.5px solid black;
+}
+.text{
+    padding: 0px 10px;
+}
+.text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.backimg{
+    background-image: url(./items/backimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: none;
+    position: relative;
+}
+.logo{
+    display: flex;
+}
+.navtext{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 8px;
+    top: 5%;
+    width: 40%;
+}
+.bartext{
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    padding-left: 10%;
+    width: 90%;
+    top: 4%;
+}
+.navbar:hover{
+    background-color: white;
+    height: 60px;
+    cursor: pointer;
+    transition: .5s;
+}
+.icons{
+    position: absolute;
+    color: white;
+    top: 5%;
+    right: 10%;
+    display: flex;
+}
+.icon{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.navbar:hover .bartext{
+    color: black;
+}
+.bartext:hover{
+    text-decoration: underline;
+}
+.navbar:hover .icon{
+    color: black;
+}
+.btntop{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 45%;
+}
+.btn1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 0px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 1.2s;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h3{
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.everyday{
+    background-color: rgb(22, 22, 22);
+    padding: 0 130px;
+    position: relative;
+    height: 500px;
+}
+
+.everyday h1{
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: left;
+}
+p{
+    color: white;
+}
+
+.btnmid{
+    display: flex;
+    justify-content: start;
+    padding-top: 55px;
+}
+.everyday .btn2{
+    border: 1px solid white;
+    border-radius: 8%;
+    color: white;
+    padding: 10px 40px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 1.2s;
+}
+.everyday img{
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    top: 230px;
+    left: 170px;
+    z-index: 2;
+}
+.everyday video{
+    height: 663px;
+    width: 50%;
+    position: absolute;
+    right: 7%;
+    top: -8%;
+    z-index: 1;
+}
+.step{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+}
+.small{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+}
+
+.btnmid {
+    padding-left: 35px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* 1st slider */
+.slider1{
+    display: flex;
+    margin: 10% 15% 8% 8%;
+    width: 70vw;
+}
+.image_slider_1{
+    padding-left: 10px;
+    height: 50%;
+    width: 30%;
+}
+.img_s_1{
+    width: 20vw;
+}
+.slide_1_test1{
+    padding-left: 15px;
+    font-size: 15px;
+    padding: 15px;
+}
+.sth1, .stp1{
+    padding-top: 5px;
+}
+.slide_1_shop{
+    padding-top: 10px;
+}
+.a_shop1, .stp1{
+    color: black;
+}
+/* ends */
+/* big img */
+
+.big_img_1{
+    padding-left: 10%;
+    height: 1000px;
+    width: 100%;
+    cursor: pointer;
+}
+/* ends */
+/* slider 2 starts */
+
+.wedding{
+    margin: 5%;
+}
+.wed_bags_d{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.wed_bag_d1{
+    border-top: 1px solid rgb(17, 16, 16);
+    height: 10px;
+    width: 30%;
+    margin-right: 20%;
+    border-left: 1px solid rgb(7, 7, 7);
+    height: 30px;
+}
+.wed_text{
+    font-size: 20px;
+    position: absolute;
+    top: -12px
+}
+.wed_bag_d2{
+    border-top: 1px solid rgb(17, 16, 16);
+    height: 10px;
+    width: 30%;
+    border-right: 1px solid rgb(7, 7, 7);
+    height: 30px;
+}
+.items_part1{
+    width: 65vw;
+    margin-left: 13%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.bag1{
+    height: 25vh;
+}
+.bag1:hover{
+    scale: 1;
+    display: block;
+}
+.bag1_title{
+    color: black;
+    margin-top: 18px;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.bag1_title:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bag1_price{
+    color: black;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.bag1_text1{
+    text-decoration: none;
+    color: black;
+}
+.bag1_blank{
+    height: 25vh;
+    width: 12vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 20%;
+    display: none;
+}
+.wed_bags_d1{
+    border-bottom:1px solid black ;
+    width: 72vw;
+    margin-left:10%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 20px;
+}
+/* slider 2 ends */
+/* offers start
+
+.offers{
+    display: flex;
+    justify-content: center;
+    height: 100vh
+}
+.offer_text1{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+.offer_text2{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.offer_type{
+    position: relative;
+}
+.offer_type1{
+    width: 25vw;
+    padding: 10px;
+}
+.offer_text{
+    background-color: white;
+    width: 20vw;
+    height: 80px;
+    bottom: -60px;
+    padding: 20px;
+    margin-left: 25px;
+    position: absolute;
+}
+.show_tag{
+    align-content: center;
+    font-size: 12px;
+    padding-left: 40%;
+    color: black;
+}
+.show_tag{
+    opacity: 50%;
+}
+offer ends
+slide 3 starts
+
+.best_seller{
+    display: flex;
+}
+.seller{
+    display: flex;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.arrow{
+    padding-top: 4px;
+    padding-right: 15px;
+}
+.best{
+    padding-right: 50px;
+    font-weight: 700;
+}
+.trend{
+    opacity: 20%;
+}
+.view_tag{
+    margin-left: 38%;
+}
+.view-all{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+.view-all:hover{
+    text-decoration: underline;
+  }
+.ba{
+    padding: 10px;
+  }
+.ba:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1s;
+  }
+  .slider_shoes{
+    padding-left: 50px;
+    margin-top: 20px;
+  } */
+
+  @media screen and (max-width:670px) {
+    .topmenu{
+        display: none;
+    }
+    .navtext{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .navleft{
+        padding-left: 40%;
+    }
+    
+  }
